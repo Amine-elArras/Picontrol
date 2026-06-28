@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino LED Controller</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Arduino LED via Webserver</h1>
+    <p>Bedien de rode LED (Pin 12) vanaf hier:</p>
+    <a href="/aan" class="button on">Zet AAN</a>
+    <a href="/uit" class="button off">Zet UIT</a>
+</body>
+</html>
