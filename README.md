@@ -166,3 +166,8 @@ Tijdens de ontwikkeling zijn de volgende specifieke problemen opgelost:
 Dit project maakt gebruik van een .gitignore bestand. Dit voorkomt dat de omvangrijke venv/ map (die duizenden lokale Python-systeembestanden bevat) per ongeluk naar GitHub wordt geupload.
 
 Daarnaast is de webserver geconfigureerd met host='0.0.0.0'. Dit stelt apparaten binnen het eigen wifi-netwerk in staat om de pagina te bezoeken, maar stelt de server niet open voor het openbare internet. Er worden geen gevoelige openbare IP-adressen of wachtwoorden in de code opgeslagen.
+
+
+
+## Demonstratie
+![PiControl Werking](web-server/static/demo.gif)
